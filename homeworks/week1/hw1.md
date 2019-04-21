@@ -8,7 +8,7 @@
 
 ## 上傳作業
 
-1. 完成作業後，把 branch push 至 github：git push origin week。
+1. 完成作業後，把 branch push 至 github：git push origin week1。
 2. 上傳完成後，會在 github 上看到新的分支，並點擊「 Compare & pull request 」。
 3. 輸入標題後，若有心得或問題也可以打在上面，完成後按下「 Create pull request 」，並複製網址。
 4. 到「 homeworks-3rd 」，並建立一個「 New issue 」。
