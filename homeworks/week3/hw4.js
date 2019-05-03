@@ -1,5 +1,6 @@
 function isPalindromes(str) {
-  console.log(str);
+  const reStr = str.split('').reverse().join('');
+  return str !== reStr;
 }
 
 module.exports = isPalindromes;
