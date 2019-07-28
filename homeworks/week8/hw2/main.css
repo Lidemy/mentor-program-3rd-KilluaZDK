@@ -1,0 +1,142 @@
+/* body */
+
+body {
+  background-color: #ffffff;
+  font-family: "Kozuka Mincho Pro", "Kozuka Mincho Std", "Hiragino Mincho Pro", "MS PMincho", Georgia, Times, Baskerville, Palatino, serif;
+  margin: 0;
+}
+
+/* nav */
+
+.nav {
+  width: 100%;
+}
+
+.nav__logo {
+  width: 300px;
+  margin: 15px auto;
+}
+
+.nav__logo img{
+  width: 100%;
+  cursor: pointer;
+}
+
+.nav__bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  border-top: 1px solid #00000038;
+  border-bottom: 1px solid #00000038;
+  width: 100%;
+}
+
+.nav__bar-menu {
+  font-weight: 200;
+  font-size: 17px;
+  letter-spacing: 4px;
+  padding: 20px 25px;
+  color: #535252;
+  transition: all 0.5s;
+}
+
+.nav__bar-menu:hover {
+  cursor: pointer;
+  color: #000000;
+  transform: scale(1.2);
+}
+
+/* main */
+
+.main {
+  padding: 0 20px 33px 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board {
+  margin: 20px 10px;
+  width: 80%;
+}
+
+.board__input {
+  margin: 30px 0;
+}
+
+.board__input-title {
+  font-size: 30px;
+  margin: 10px 0;
+  color: rgba(0, 0, 0, 0.705); 
+}
+
+.board__input-area {
+  border: 1px solid rgba(0, 0, 0, 0.705); 
+  border-radius: 2px;
+}
+
+.board__input-area textarea {
+  border: none;
+  resize: none;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.705); 
+  font-family: "Kozuka Mincho Pro", "Kozuka Mincho Std", "Hiragino Mincho Pro", "MS PMincho", Georgia, Times, Baskerville, Palatino, serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+.board__input-submit {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.705);
+  border-radius: 2px;
+  color: rgba(0, 0, 0, 0.705); 
+  background-color: transparent;
+  font-size: 16px;
+  font-family: "Kozuka Mincho Pro", "Kozuka Mincho Std", "Hiragino Mincho Pro", "MS PMincho", Georgia, Times, Baskerville, Palatino, serif;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.board__input-submit:hover {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.705);
+}
+
+.board__message {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  border: 1px solid rgba(0,0,0,.09);
+  padding: 20px 20px 20px 20px;
+  background: white;
+  border: 1px solid #535252;
+  border-radius: 2px;
+  margin: 0 0 10px 0;
+}
+
+.board__message-number {
+  padding: 0 10px 0 0;
+  color: rgba(0, 0, 0, 0.705); 
+}
+
+.board__message-content {
+  padding: 0 0 0 10px;
+  border-left: 1px solid rgba(0, 0, 0, 0.705); 
+  color: rgba(0, 0, 0, 0.705); 
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  color: #535252;
+  padding: 15px 0;
+}
+
+/* 新增的 class */
+
